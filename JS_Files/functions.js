@@ -29,6 +29,35 @@ $(document).ready(function(){
 });
 
 
+$(document).ready( function() {
+    var topOfOthDiv = $('.header').offset().top;
+    $(window).scroll(function() {
+        if($(window).scrollTop() > topOfOthDiv) {
+            $('.arrow').hide();
+        }
+        else{
+            $('.arrow').show();
+        }
+    });
+});
+
+
+$(window).scroll(function() {
+    var $wp        = $('.whichprep');
+    var $sh        = $('.soc_hub');
+    var $window      = $(window);
+    var wpTop        = $wp.offset().top;
+    var shTop        = $sh.offset().top;
+    var windowTop    = $window.scrollTop();
+    var windowBottom = windowTop + $window.height();
+
+    if (wpTop > windowTop && wpTop < windowBottom) {
+        $wp.animate({right: 10 + '%'}, {queue: true, duration: 1700});
+    }
+    if (shTop > windowTop && shTop < windowBottom) {
+        $sh.animate({right: 10 + '%'}, {queue: true, duration: 1700});
+    }
+});
 
 
 
