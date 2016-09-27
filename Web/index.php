@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Conor McGovern</title>
+    <link rel="icon" type="image/ico" href="../images/favicon.ico">
     <link rel="stylesheet" type ="text/css" href="../css/styles.css">
     <script src="../JS_Files/jquery-3.1.0.min.js"></script>
     <script src="../JS_Files/functions.js"></script>
@@ -268,7 +269,7 @@
 
                 }
             ?>
-            <form action="#" method="post">
+            <form action="index.php" method="post">
                 <input type="text" name="fullname" maxlength="30" placeholder="Your Name">
 
                 <input type="text" name="email" maxlength="50" placeholder="Email"><br>
@@ -280,8 +281,9 @@
         </div>
 
         <div class="contactdetails">
-            <img class="iconimage" src="../images/phone.png"> <i style="font-size: 30px;">(+353) 0860512511</i><br><br><br><br>
-            <img class="iconimage" src="../images/house.png"><i style="font-size: 30px;">Cornstown, Ashbourne,<br> Co. Meath</i>
+            <img class="iconimage" src="../images/phone.png"> <i style="font-size: 25px;">(+353) 0860512511</i><br><br><br><br>
+            <img class="iconimage" src="../images/mail.png"> <i style="font-size: 25px;">conor.mcgovern9@mail.dcu.ie</i><br><br><br><br>
+            <img class="iconimage" src="../images/house.png"><i style="font-size: 25px;">Cornstown, Ashbourne,<br> Co. Meath</i>
         </div>
 
 
