@@ -41,7 +41,7 @@
                 Hi. I'm Conor. Thank you for taking the time to visit my website!
             </p>
             <p>
-                I have recently completed a 4 year course in B.Sc. of Computer Applications in DCU, where i received 2.2 honours.
+                I have recently completed a 4 year course in B.Sc. of Computer Applications in DCU, where i received 2nd class honours.
                 Last year as part of my course i completed a 6 month  work placement, spent in an established IT firm.
                 I gained experience in a variety of areas including development, testing and support.
             </p>
